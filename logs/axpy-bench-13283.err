@@ -1,0 +1,16 @@
+axpy_full.c: In function ‘read_timer’:
+axpy_full.c:15:5: warning: ‘ftime’ is deprecated: Use gettimeofday or clock_gettime instead [-Wdeprecated-declarations]
+   15 |     ftime(&tm);
+      |     ^~~~~
+In file included from axpy_full.c:8:
+/usr/include/sys/timeb.h:29:12: note: declared here
+   29 | extern int ftime (struct timeb *__timebuf)
+      |            ^~~~~
+axpy_full.c: In function ‘read_timer_ms’:
+axpy_full.c:22:5: warning: ‘ftime’ is deprecated: Use gettimeofday or clock_gettime instead [-Wdeprecated-declarations]
+   22 |     ftime(&tm);
+      |     ^~~~~
+In file included from axpy_full.c:8:
+/usr/include/sys/timeb.h:29:12: note: declared here
+   29 | extern int ftime (struct timeb *__timebuf)
+      |            ^~~~~
