@@ -1,0 +1,32 @@
+Running on node: gal-c1.charlotte.edu
+Start time: Tue Feb  3 08:21:03 PM EST 2026
+Running N=1000000 T=1
+Running N=1000000 T=2
+Running N=1000000 T=4
+Running N=1000000 T=8
+Running N=1000000 T=16
+Running N=1000000 T=32
+Running N=1000000 T=36
+Running N=10000000 T=1
+Running N=10000000 T=2
+Running N=10000000 T=4
+Running N=10000000 T=8
+Running N=10000000 T=16
+Running N=10000000 T=32
+Running N=10000000 T=36
+Running N=100000000 T=1
+Running N=100000000 T=2
+Running N=100000000 T=4
+Running N=100000000 T=8
+Running N=100000000 T=16
+Running N=100000000 T=32
+Running N=100000000 T=36
+Running N=1000000000 T=1
+Running N=1000000000 T=2
+Running N=1000000000 T=4
+Running N=1000000000 T=8
+Running N=1000000000 T=16
+Running N=1000000000 T=32
+Running N=1000000000 T=36
+Results written to results/axpy_times_13523.csv
+End time: Tue Feb  3 08:23:40 PM EST 2026
