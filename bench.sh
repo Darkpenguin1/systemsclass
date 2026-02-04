@@ -5,6 +5,7 @@
 #SBATCH --output=logs/%x-%j.out
 #SBATCH --error=logs/%x-%j.err
 #SBATCH --mem=20GB
+#SBATCH --cpus-per-task=36
 
 set -euo pipefail
 cd "$SLURM_SUBMIT_DIR"
